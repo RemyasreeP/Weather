@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    margin: 0px 90px;
+    background: url("weather.avif");
+     background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 130px;
+}.left{
+    display: flex;
+}
+.left input{
+    width: 280px;
+    padding: 10px;
+}
+.left button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+#cityDetails{
+    color: white;
+
+}
+#date{
+    color: white;
+}
+#temperature{
+    color: white;
+    padding: 10px 0px;
+    font-size: 60px;
+}

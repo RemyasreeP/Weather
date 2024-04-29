@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="first">
+        <div class="left">
+            <div class="input">
+                <input id="cityName" type="text" placeholder="search for weather by city,zip code or coordinates">
+            </div>
+            <div class="search">
+                <button onclick="fetchDetails()">search</button>
+            </div>  
+        </div>
+        <div class="right">
+            <h1 id="cityDetails">City Name,Country</h1>
+            <h1 id="date">📅date</h1>
+            <h1 id="temperature">🌡️75 <sup>o</sup></h1>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
